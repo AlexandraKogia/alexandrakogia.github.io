@@ -1,0 +1,124 @@
+/* create the background */
+body {
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+}
+/* coloured navbar */
+.nav{
+    background:#fff;
+}
+/* define type colour and cursor */
+.nav-link{
+    color: #000;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.nav-brand{
+    color: #000;
+    cursor: pointer;
+     letter-spacing: 4px;
+    font-size: 1.7rem;
+  	font-weight: 500;
+  	margin-bottom: 10px;
+}
+/* create margin to the right of the links */
+.nav-link {
+    margin-right: 1em !important;
+}
+/* change colour of links when hover */
+.nav-link:hover {
+    color: #000;
+    opacity: 0.5;
+}
+.nav-brand:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.5;
+
+}
+
+/* full screen background image */
+.header {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* overlay to background image */
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* grid objects */
+.features {
+	margin: 5rem auto;
+	padding: 0em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 10px;
+
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+/* about description */
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: left;
+}
+.description h1 {
+	color: #2e2d2d;
+}
+.description p {
+	color: #2e2d2d;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.img{
+  margin: 5rem auto;
+  padding: 0em;
+  position: relative;
+}
+.row .button {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+  border: none;
+  letter-spacing: 1.7px;
+
+  color:white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 4px 2px;
+  cursor: pointer;
+}
